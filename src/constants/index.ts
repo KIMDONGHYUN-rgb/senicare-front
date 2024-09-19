@@ -11,6 +11,8 @@ export const CS_UPDATE_PATH = (customNumber: string | number) => `${customNumber
 export const MM_PATH = '/mm';
 export const HR_PATH = '/hr';
 export const HR_DETAIL_PATH = (userId: string) => `${userId}`;
+
+export const SNS_SUCCESS_PATH = 'sns-success';
 export const OTHERS_PATH = '*';
 
 
